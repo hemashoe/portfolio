@@ -1,0 +1,249 @@
+/**
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+html {
+  font-family: 'Bebas Neue', cursive;
+  overflow: visible;
+}
+
+body {
+  margin: 0 0;
+  width: 100%;
+  height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
+  background: #000;
+  background-color: #000000;
+  color: #000000;
+}
+
+svg {
+  position: fixed;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 300px;
+  width: 300px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #bdc01a;
+}
+
+p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+a {
+  color: #bdc01a;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.bg__image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 1024px) {
+  .bg-image {
+    background-attachment: scroll;
+  }
+}
+
+.overlay__intro {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1.1;
+}
+
+/*--------------------------------------------------------------
+# Main and Header Section
+--------------------------------------------------------------*/
+
+header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 4% 5%;
+  position: absolute;
+}
+
+
+@media (max-width: 768px) {
+  header {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 10 0;
+    position: absolute;
+  }
+}
+
+.header__title {
+  display: contents;
+}
+
+.header__title__name {
+  font-size: 50px;
+  margin: 0 0;
+  color: #bdc01a;
+  padding: 15px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  color: #bdc01a;
+}
+
+.main__content {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.main__container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.main__title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 5rem;
+}
+
+@media (min-width: 768px) {
+  .hero__title {
+    font-size: 4.5rem;
+  }
+}
+
+/*--------------------------------------------------------------
+# Second Page
+--------------------------------------------------------------*/
+
+.second-page {
+  position: relative;
+}
+
+.secondpage-container {
+  position: relative;
+  margin: 0 2%;
+  padding: 2%;
+}
+
+.end__img {
+  position: relative;
+  max-width: 50%;
+  max-height: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 200px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  align-items: flex-start;
+}
+
+.box {
+  border-radius: 5px;
+  padding: 1%;
+  font-size: 150%;
+}
+
+.info {}
+
+.info__title {
+  font-weight: 500;
+  margin: 0 0;
+}
+
+.info__content {}
+
+.info__text {}
+
+.info__instruments {
+  margin: 0 0;
+}
+
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.skills {
+  position: relative;
+  height: 100vh;
+  margin: 0 2%;
+}
+
+.skill {
+  margin: 0 2%;
+}
+
+.skill__content {
+  text-align: center;
+  height: 30vh;
+
+}
+
+.skill__title {
+  margin: 0 15%;
+}
+
+.skill__img {
+  max-width: 75px;
+  max-height: 75px;
+}
+
+.skill__img__white_background {
+  max-width: 75px;
+  max-height: 75px;
+  background-color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Information
+--------------------------------------------------------------*/
+
+.information {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.end__img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.table__information {
+  height: 75vh;
+  max-height: 80vh;
+
+}
