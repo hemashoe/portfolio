@@ -12,7 +12,7 @@ body {
   width: 100%;
   height: 100vh;
   min-width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   background: #000;
   background-color: #000000;
   color: #000000;
@@ -142,11 +142,11 @@ header {
 # Second Page
 --------------------------------------------------------------*/
 
-.second-page {
+.second__page {
   position: relative;
 }
 
-.secondpage-container {
+.page__container {
   position: relative;
   margin: 0 2%;
   padding: 2%;
@@ -172,12 +172,14 @@ header {
 }
 
 .box {
-  border-radius: 5px;
+  /* border-radius: 5px; */
   padding: 1%;
   font-size: 150%;
 }
 
-.info {}
+.info {
+  height: 95vh;
+}
 
 .info__title {
   font-weight: 500;
@@ -186,10 +188,12 @@ header {
 
 .info__content {}
 
-.info__text {}
+.info__text {
+  text-decoration: ;
+}
 
 .info__instruments {
-  margin: 0 0;
+  margin: 15% 0;
 }
 
 
@@ -198,7 +202,6 @@ header {
 --------------------------------------------------------------*/
 .skills {
   position: relative;
-  height: 100vh;
   margin: 0 2%;
 }
 
@@ -208,8 +211,8 @@ header {
 
 .skill__content {
   text-align: center;
-  height: 30vh;
-
+  height: 35vh;
+  text-shadow: #bdc01a 1ch;
 }
 
 .skill__title {
@@ -235,6 +238,7 @@ header {
   position: relative;
   height: 100vh;
   width: 100%;
+  max-height: 100vh;
 }
 
 .end__img {
@@ -242,8 +246,28 @@ header {
   max-height: 50%;
 }
 
-.table__information {
-  height: 75vh;
-  max-height: 80vh;
+.message__content {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.message__title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.message__text {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.contact {
+  position: relative; 
+}
+
+.contact__img {
+  max-width: 50px;
+  max-height: 50px;
 
 }
