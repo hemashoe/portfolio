@@ -19,6 +19,27 @@ body {
   color: #000000;
 }
 
+.loader {
+	position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #161616;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.loader svg {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
 h2 {
   color: #bdc01a;
 }
@@ -214,16 +235,16 @@ header {
 
 @media (max-width: 480px) {
   .main__title {
-    font-weight: 600;
+    font-weight: 500;
     color: #ffffff;
     margin: 0 0;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 }
 
 @media (max-width: 340px) {
   .main__title {
-    font-weight: 600;
+    font-weight: 500;
     color: #ffffff;
     margin: 0 0;
     font-size: 3rem;
@@ -333,19 +354,25 @@ header {
 
 @media (max-width: 786px) {
   .info p {
-    font-size: 1.4rem;
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .info p {
+    font-size: 1.28rem;
   }
 }
 
 @media (max-width: 640px) {
   .info p {
-    font-size: 1.2rem;
+    font-size: 1.16rem;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 560px) {
   .info p {
-    font-size: 1.1rem;
+    font-size: 1.08rem;
   }
 }
 
